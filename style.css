@@ -1,0 +1,49 @@
+path {
+  fill: none;
+}
+
+/* body {
+  font-family: "Ariel", Times, serif;
+} */
+/* circle {
+  fill: #FF00FF;
+  stroke:navy;
+  stroke-width:2px;
+
+
+} */
+
+
+g.tick text y {
+  font-size: 10px;
+  font: sans-serif;
+}
+g.tick text x {
+  font-size: 10px;
+  font: sans-serif;
+}
+g.tick {
+  fill:red;
+}
+div#legend {
+  float:right;
+}
+
+/* div#chart {
+  float:left;
+  position:relative;
+} */
+
+div#parent {
+  display: flex;
+  flex-flow: row nowrap;
+  height: 100%;
+  padding-left: 30px;
+  font-size: 20px;
+}
+
+div#parent input {
+
+  font-size: 20px;
+}
+.axis { font: 14px sans-serif; }
